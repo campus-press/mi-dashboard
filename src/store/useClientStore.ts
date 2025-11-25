@@ -21,7 +21,7 @@ interface ClientStore {
 }
 
 // 3. Creamos el Hook del Store
-export const useClientStore = create<ClientStore>()((set, get) => ({
+export const useClientStore = create<ClientStore>()((set) => ({
     clients: [],
     isLoading: false,
     error: null,

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Plus, Search, Trash2, Mail, User, RefreshCw, AlertTriangle } from 'lucide-react';
 // Importamos el store
-import { useClientStore, type Client } from '../store/useClientStore';
+import { useClientStore } from '../store/useClientStore';
 
 export default function Clients() {
     // --- CONEXIÓN CON ZUSTAND ---

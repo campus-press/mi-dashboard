@@ -8,7 +8,7 @@ export default function Dashboard() {
     const clients = useClientStore((state) => state.clients);
 
     // Cálculos dinámicos (Computed values en tiempo real)
-    const totalClients = clients.length;
+    //const totalClients = clients.length;
     const activeClients = clients.filter(c => c.status === 'Activo').length;
 
     // Formateamos para mostrar en la tarjeta
